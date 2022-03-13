@@ -90,5 +90,12 @@ _After reboot run this test to see if it works_
 sudo echo "Hello World"
 ```
 
+## Snaps dont show up
+#### Run
+```
+sudo ln -s /var/lib/snapd/desktop/applications 
+/usr/share/applications/snapd
+```
+
 
 
