@@ -1,0 +1,48 @@
+/*******************************************************
+    Costom made rofi theme
+ *******************************************************/
+*{
+    foreground:                  rgba ( 254, 255, 211, 100 % );
+    selected-foreground:         @red;
+    alternative-foreground:      rgba ( 196, 203, 212, 100 % );
+
+    background:                  rgba ( 48, 48, 48, 100 % );
+    selected-background:         @background;
+    border:                      rgba ( 20, 20, 20, 100 % );
+
+    inptut-color:                @red;
+
+    red:                         rgba ( 221, 124, 76, 100 % );
+    blue:                        rgba ( 138, 152, 154, 100 % );
+    green:                       rgba ( 208, 219, 142, 100 % );
+    yellow:                      rgba ( 225, 196, 125, 100 % );
+
+    border-color:                rgba ( 124, 131, 137, 100 % );
+    padding:                     4;
+    separatorcolor:              rgba ( 29, 31, 33, 100 % );
+}
+
+/*
+    kitty twillight theme
+    background #141414
+    foreground #feffd3
+    cursor #ffffff
+    selection_background #303030
+    color0 #141414
+    color8 #262626
+    color1 #c06c43
+    color9 #dd7c4c
+    color2 #afb979
+    color10 #cbd88c
+    color3 #c2a86c
+    color11 #e1c47d
+    color4 #444649
+    color12 #5a5d61
+    color5 #b4be7b
+    color13 #d0db8e
+    color6 #778284
+    color14 #8a989a
+    color7 #feffd3
+    color15 #feffd3
+    selection_foreground #141414
+*/

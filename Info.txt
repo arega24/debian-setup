@@ -1,0 +1,16 @@
+
+Download Link
+  https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.2.0+nonfree/amd64/iso-cd/
+
+Comands:
+  root:
+    $ su -
+  update:
+    # apt update
+  Git:
+    # apt install git
+    $ git clone <github debian link>
+  setup process:
+    $ su -
+    # cd <downloaded folder>
+    # ./setup_script.sh

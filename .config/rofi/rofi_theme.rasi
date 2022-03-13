@@ -1,0 +1,103 @@
+/******************************************************************************
+    Costom made rofi theme
+ ******************************************************************************/
+
+@import "~/.config/rofi/costom_colors.rasi"
+
+configuration{
+    display-drun:           "Aplication:";
+    font:                   "Nunito Regular 14";
+    drun-display-format:    "{icon}{name}";
+    show-icons:             false;
+    //icon-theme:           ;
+}
+
+window {
+    width:            40%;
+    height:           23%;
+    padding:          0;
+    text-color:       @foreground;
+    background-color: @background;
+}
+
+prompt {
+    padding:          @padding;
+    text-color:       @foreground;
+    background-color: @inptut-color;
+}
+
+entry {
+    padding:          @padding;
+    text-color:       @foreground;
+    background-color: @inptut-color;
+}
+
+inputbar {
+    children:         [ prompt, entry ];
+    padding:          8;
+    border:           0 0 0;
+    text-color:       @foreground;
+    background-color: @inptut-color;
+    border-color:     @inptut-color;
+}
+
+listview {
+    columns:          2;
+    padding:          @padding;
+    cycle:            false;
+    dynamic:          true;
+    layout:           vertical;
+    background-color: @background;
+    text-color:       @foreground;
+}
+
+mainbox {
+    children:         [ inputbar, listview ];
+    background-color: @background;
+    text-color:       @foreground;
+    padding:          0;
+    border:           0;
+}
+
+element {
+    padding:          4;
+    text-color:       @foreground;
+    background-color: @background;
+}
+
+element-icon {
+    padding:          0 4 0;
+    text-color:       inherit;
+    background-color: inherit;
+}
+
+element-text {
+    text-color:       inherit;
+    background-color: inherit;
+}
+
+element normal.urgent, element alternate.urgent {
+    text-color:       inherit;
+    background-color: inherit;
+}
+
+element normal.active, element alternate.active {
+    text-color:       inherit;
+    background-color: inherit;
+}
+
+element selected {
+    text-color:       @selected-foreground;
+    background-color: @selected-background;
+}
+
+element selected.urgent {
+    text-color:       @selected-foreground;
+    background-color: @selected-background;
+}
+
+element selected.active {
+    text-color:       @selected-foreground;
+    background-color: @selected-background;
+}
+// vim:ft=css

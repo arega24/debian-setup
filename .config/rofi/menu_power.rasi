@@ -1,0 +1,10 @@
+@import "~/.config/rofi/costom_colors.rasi"
+@theme "~/.config/rofi/rofi_theme.rasi"
+
+inputbar {
+  children: [entry];
+}
+
+configuration{
+    display-drun:           "Power Menu: ";
+}

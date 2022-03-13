@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/arega/Imagens/kym-mackinnon-BiEn_Ji4o0M-unsplash.jpg' 
