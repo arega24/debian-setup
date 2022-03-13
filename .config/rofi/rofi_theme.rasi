@@ -1,16 +1,15 @@
-/******************************************************************************
-    Costom made rofi theme
- ******************************************************************************/
 
-@import "~/.config/rofi/costom_colors.rasi"
+//    Costom made rofi theme
 
 configuration{
     display-drun:           "Aplication:";
-    font:                   "Nunito Regular 14";
+    font:                   "Nunito 14";
     drun-display-format:    "{icon}{name}";
     show-icons:             false;
     //icon-theme:           ;
 }
+
+@import "~/.config/rofi/costom_colors.rasi"
 
 window {
     width:            40%;
@@ -60,7 +59,7 @@ mainbox {
 }
 
 element {
-    padding:          4;
+    padding:          5;
     text-color:       @foreground;
     background-color: @background;
 }
@@ -100,4 +99,5 @@ element selected.active {
     text-color:       @selected-foreground;
     background-color: @selected-background;
 }
+
 // vim:ft=css
