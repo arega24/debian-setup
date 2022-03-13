@@ -45,3 +45,20 @@ And execute the chosen file
 ```
 ./<file-name>.sh
 ```
+
+#### Sudo didns recognise user on sudoers
+```
+su -
+apt install sudo -y
+adduser <username> sudo
+chmod 0440 /etc/sudoers
+exit
+reboot
+```
+_After reboot run this test to see if it works_
+```
+sudo echo "Hello World"
+```
+
+
+
