@@ -10,21 +10,20 @@ https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/cur
 ```
 git clone https://github.com/arega24/debian-setup /home/arega/debian-setup/
 ```
+
 #### cd into the folder
 ```
 cd ~/debian-setup
 ```
-#### Run files as ROOT
-
 
 #### Setup wm and install basic pacages
+_Run as root_
 ```
 ./initial-setup-script.sh
 ```
 #### Copy files
 Do NOT RUN as ROOT
-
-_Exit ROOT_
+_Exit root_
 ```
 exit
 ```
@@ -34,14 +33,11 @@ _Run_
 ```
 
 #### The rest of .sh files
-
-Run as ROOT
+_Run as root_
 ```
 su -
 ```
-
 And execute the chosen file
-
 ```
 ./<file-name>.sh
 ```
