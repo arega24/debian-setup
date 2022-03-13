@@ -5,10 +5,10 @@ apt update
 apt upgrade -y
 
 # Directories
-mkdir /home/$username/Documentos
-mkdir /home/$username/Modelos
-mkdir /home/$username/Musica
-mkdir /home/$username/Transferências
+# mkdir /home/arega/Documentos
+# mkdir /home/arega/Modelos
+# mkdir /home/arega/Musica
+# mkdir /home/arega/Transferências
 
 # Add base packages
 apt install sudo unzip tar rar picom dunst bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo -y
@@ -22,12 +22,12 @@ apt install htop speedtest-cli neofetch vifm nvtop gdu -y
 # apt install zsh -y
 
 # Desktop config
-cp -r /Imagens /home/$username
-cp -r /.config /home/$username
-cp .fehbg /home/$username
-cp -r /.themes /home/$username
-# cp .zshrc /home/$username
-# cp .p10k.zsh /home/$username
+cp -r /Imagens /home/arega
+cp -r /.config /home/arega
+cp .fehbg /home/arega
+cp -r /.themes /home/arega
+# cp .zshrc /home/arega
+# cp .p10k.zsh /home/arega
 
 # Make zsh default
 # chsh -s /bin/zsh
@@ -39,5 +39,5 @@ cp -r /.themes /home/$username
 systemctl enable lightdm
 
 # BSPWM and SXHKD activation
-chmod -x /home/$username/.config/bspwm/bspwmrc
-chmod -x /home/$username/.config/sxhkd/sxhkdrc
+chmod -x /home/arega/.config/bspwm/bspwmrc
+chmod -x /home/arega/.config/sxhkd/sxhkdrc
