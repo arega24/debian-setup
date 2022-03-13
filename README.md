@@ -8,7 +8,7 @@ https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.
 
 #### Download
 ```
-git clone https://github.com/arega24/debian-setup/ /home/arega/debian-setup/
+git clone https://github.com/arega24/debian-setup /home/arega/debian-setup/
 ```
 #### cd into the folder
 ```
