@@ -14,10 +14,6 @@ deb http://deb.debian.org/debian bullseye-backports main contrib non-free
 apt update
 apt install -t bullseye-backports nvidia-driver firmware-misc-nonfree
 
-# Configuration
-apt install nvidia-xconfig
-nvidia-xconfig
-
 # Nvidia Tesla drivers
 apt install nvidia-tesla-450-driver
 
