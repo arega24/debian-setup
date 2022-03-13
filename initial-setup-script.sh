@@ -21,14 +21,6 @@ apt install wget -y
 apt install htop speedtest-cli neofetch vifm nvtop gdu -y
 # apt install zsh -y
 
-# Desktop config
-cp -r /Imagens/kym-mackinnon-BiEn_Ji4o0M-unsplash.jpg /home/arega/Imagens/
-cp -r .config/ /home/arega/
-cp .fehbg /home/arega/
-cp -r .themes/ /home/arega/
-# cp .zshrc /home/arega/
-# cp .pc10k.zsh /home/arega/
-
 # Make zsh default
 # chsh -s /bin/zsh
 
@@ -38,6 +30,3 @@ cp -r .themes/ /home/arega/
 # lightdm
 systemctl enable lightdm
 
-# BSPWM and SXHKD activation
-chmod -x /home/arega/.config/bspwm/bspwmrc
-chmod -x /home/arega/.config/sxhkd/sxhkdrc
