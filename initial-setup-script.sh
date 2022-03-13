@@ -11,7 +11,7 @@ mkdir /home/$username/Musica
 mkdir /home/$username/Transferências
 
 # Add base packages
-apt install sudo unzip tar rar picom dunst bspwm polybar rofi kitty sxhkd git lxappearance gnome-screenshot feh sxiv nemo -y
+apt install sudo unzip tar rar picom dunst bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo -y
 apt install papirus-icon-theme -y
 apt install fonts-font-awesome -y
 apt install lightdm slick-greeter lightdm-settings xorg -y
