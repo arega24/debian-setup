@@ -9,11 +9,7 @@
 #kernel headers
 apt install linux-headers-amd64
 
-# Nvidia Tesla drivers
-apt install nvidia-tesla-450-driver
-
 # Descktop drivers v470.103.01
-bullseye-backports
 deb http://deb.debian.org/debian bullseye-backports main contrib non-free
 apt update
 apt install -t bullseye-backports nvidia-driver firmware-misc-nonfree
@@ -21,6 +17,9 @@ apt install -t bullseye-backports nvidia-driver firmware-misc-nonfree
 # Configuration
 apt install nvidia-xconfig
 nvidia-xconfig
+
+# Nvidia Tesla drivers
+apt install nvidia-tesla-450-driver
 
 # Cuda
 apt install nvidia-cuda-dev nvidia-cuda-toolkit
