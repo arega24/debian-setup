@@ -5,6 +5,7 @@ Download Link
 Comands:
   root:
     $ su -
+    # exit
   update:
     # apt update
   Git:
