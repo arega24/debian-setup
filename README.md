@@ -46,7 +46,7 @@ And execute the chosen file
 ./<file-name>.sh
 ```
 
-#### Sudo didns recognise user on sudoers
+#### Sudo do not recognise user on sudoers
 ```
 su -
 apt install sudo -y
