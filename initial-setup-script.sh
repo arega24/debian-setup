@@ -11,7 +11,7 @@ apt upgrade -y
 # mkdir /home/arega/Transferências
 
 # Add base packages
-apt install sudo unzip tar rar picom dunst bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo -y
+apt install unzip tar rar picom dunst bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo -y
 apt install papirus-icon-theme -y
 apt install fonts-font-awesome -y
 apt install lightdm slick-greeter lightdm-settings xorg -y
