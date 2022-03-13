@@ -11,6 +11,7 @@ cp -r .themes/ /home/arega/
 # Directories
 mkdir /home/arega/Música
 mkdir /home/arega/Transferências
+mkdir /home/arega/Documentos
 
 # BSPWM and SXHKD activation
 chmod +x /home/arega/.config/bspwm/bspwmrc
