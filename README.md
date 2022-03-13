@@ -21,11 +21,23 @@ cd ~/debian-setup
 ```
 ./initial-setup-script.sh
 ```
+#### Copy files
+Do NOT RUN as ROOT
+
+_Exit ROOT_
+```
+exit
+```
+_Run_
+```
+./copy-folders-script.sh
+```
+
 #### The rest of .sh files
 
 Run as ROOT
 ```
-sudo su
+su -
 ```
 
 And execute the chosen file
