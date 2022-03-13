@@ -42,6 +42,39 @@ And execute the chosen file
 ./<file-name>.sh
 ```
 
+### NVIDIA
+_source:_ https://wiki.debian.org/NvidiaGraphicsDrivers#nvidia-detect
+##### You might want to run every comand individualy because it asks for some reboots
+#### Comands:
+##### _Detect drivers and gpu_
+```
+nvidia-detect
+```
+_if no installed_
+```
+apt install nvidia-detect
+```
+
+##### _Rest of the comands_
+kernel headers
+```
+apt install linux-headers-amd64
+```
+Descktop drivers v470.103.01
+```
+apt install nvidia-driver
+apt install firmware-misc-nonfree
+```
+Nvidia Tesla drivers
+```
+apt install nvidia-tesla-450-driver
+```
+Cuda
+```
+apt install nvidia-cuda-dev nvidia-cuda-toolkit
+```
+
+
 ## Sudo do not recognise user on sudoers
 ```
 su -
