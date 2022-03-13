@@ -5,7 +5,7 @@ apt update
 apt upgrade -y
 
 # Directories
-# mkdir /home/arega/Documentos
+# 
 # mkdir /home/arega/Modelos
 # mkdir /home/arega/Musica
 # mkdir /home/arega/Transferências
@@ -22,12 +22,12 @@ apt install htop speedtest-cli neofetch vifm nvtop gdu -y
 # apt install zsh -y
 
 # Desktop config
-cp -r /Imagens /home/arega
-cp -r /.config /home/arega
-cp .fehbg /home/arega
-cp -r /.themes /home/arega
-# cp .zshrc /home/arega
-# cp .p10k.zsh /home/arega
+cp -r /Imagens/kym-mackinnon-BiEn_Ji4o0M-unsplash.jpg /home/arega/Imagens/
+cp -r .config/ /home/arega/
+cp .fehbg /home/arega/
+cp -r .themes/ /home/arega/
+# cp .zshrc /home/arega/
+# cp .pc10k.zsh /home/arega/
 
 # Make zsh default
 # chsh -s /bin/zsh
