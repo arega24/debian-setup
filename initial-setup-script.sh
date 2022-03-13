@@ -21,6 +21,10 @@ apt install wget -y
 apt install htop speedtest-cli neofetch vifm nvtop gdu -y
 # apt install zsh -y
 
+# flatpak and flathub
+apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 # Make zsh default
 # chsh -s /bin/zsh
 
