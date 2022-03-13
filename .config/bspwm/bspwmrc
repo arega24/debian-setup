@@ -30,8 +30,11 @@ ${HOME}/.fehbg
 # Bar
 sh ~/.config/polybar_costom/launch.sh 
 
-# Picom
-picom --experimental-backends -b
+# Trasnperacy
+compton --config ~/.config/picom-or-compton/picom-or-compton.conf 
+# picom only suports transperacy above v9
+# picom --config ~/.config/picom-or-compton/picom-or-compton.conf 
+
 
 # Notifications
 #/usr/bin/dunst &
