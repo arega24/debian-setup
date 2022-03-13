@@ -1,7 +1,7 @@
 # debian-setup
 My Debian 11 setup files
 
-### ISO download
+## ISO download
 https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/
 
 ### Setup Process
@@ -42,7 +42,7 @@ And execute the chosen file
 ./<file-name>.sh
 ```
 
-#### Sudo do not recognise user on sudoers
+## Sudo do not recognise user on sudoers
 ```
 su -
 apt install sudo -y
