@@ -4,11 +4,6 @@
 apt update
 apt upgrade -y
 
-# Directories
-# 
-# mkdir /home/arega/Modelos
-# mkdir /home/arega/Musica
-# mkdir /home/arega/Transferências
 
 # Add base packages
 apt install unzip tar rar picom dunst bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo -y
