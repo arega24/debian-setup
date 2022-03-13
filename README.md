@@ -64,7 +64,6 @@ apt install linux-headers-amd64
 Descktop drivers v470.103.01
 ```
 apt install nvidia-driver
-apt install firmware-misc-nonfree
 ```
 Nvidia Tesla drivers
 ```
