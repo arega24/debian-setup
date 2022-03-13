@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Desktop config
-cp -r /Imagens/kym-mackinnon-BiEn_Ji4o0M-unsplash.jpg /home/arega/Imagens/
+cp -r Imagens/ /home/arega/
 cp -r .config/ /home/arega/
 cp .fehbg /home/arega/
 cp -r .themes/ /home/arega/
