@@ -2,7 +2,7 @@
 My Debian 11 setup files
 
 ### ISO download
-https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.2.0+nonfree/amd64/iso-cd/
+https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/
 
 ### Setup Process
 
