@@ -129,3 +129,14 @@ _enable and change line (line should look like this)_
 greeter-session=lightdm-slick-greeter
 ``
 
+## Folders missing
+Just run 
+``
+xdg-user-dirs-update
+``
+in the terminal
+
+If accidentaly deleted run
+``
+xdg-user-dirs-update --force
+``
