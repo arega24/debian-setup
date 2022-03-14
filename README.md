@@ -126,7 +126,7 @@ _Run as root_
 _enable and change line (line should look like this)_
 
 ``
-greeter-session=lightdm-slick-greeter
+greeter-session=slick-greeter
 ``
 
 ## Folders missing
