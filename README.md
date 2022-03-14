@@ -111,7 +111,7 @@ sudo vim /etc/lightdm/lightdm.conf
 
 _enable and change line (line should look like this)_
 ``
-greeter-hide-users=true
+greeter-hide-users=false
 ``
 
 #### Blackground slick greeter
