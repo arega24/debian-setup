@@ -2,8 +2,10 @@
 My Debian 11 setup files
 #### Note that these files are made for me so some files/scripts are assigned to my user name
 
+
 ## ISO download
 https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/
+
 
 ## Setup Process
 
@@ -45,6 +47,7 @@ And execute the chosen file
 ``
 ./<file-name>.sh
 ``
+
 
 ## NVIDIA
 _source:_ https://wiki.debian.org/NvidiaGraphicsDrivers#nvidia-detect
@@ -96,15 +99,17 @@ _After reboot run this test to see if it works_
 sudo echo "Hello World"
 ``
 
+
 ## Snaps dont show up
-#### Run
+### Run
 ```
 sudo ln -s /var/lib/snapd/desktop/applications 
 /usr/share/applications/snapd
 ```
 
+
 ## Lightdm configuration
-#### Save last used user
+### Save last used user
 _enter file:_
 ``
 sudo vim /etc/lightdm/lightdm.conf
@@ -115,14 +120,14 @@ _enable and change line (line should look like this)_
 greeter-hide-users=false
 ``
 
-#### Blackground slick greeter
+### Blackground slick greeter
 _Run as root_
 
 ``
 ./lightdm-script.sh
 ``
 
-##### Edit _/etc/lightdm/lightdm.conf as root_
+#### Edit _/etc/lightdm/lightdm.conf as root_
 
 _enable and change line (line should look like this)_
 
@@ -141,3 +146,36 @@ If accidentaly deleted run
 ``
 xdg-user-dirs-update --force
 ``
+
+
+## Auto mount Disck
+### Make Folder Directory where the disck will be mounted
+#### usualy it is on _/media/_ folder
+``
+sudo mkdir /media/Share
+``
+
+### Chose your disk
+Run to list all your partitions
+``
+sudo fdisk -l
+``
+
+Run 
+``
+sudo blkid
+``
+and copy the UUID from the selected disk
+
+open fstab file
+
+``
+sudo vim /etc/fstab 
+``
+
+Add the disk info (should something like this)
+IMPORTANT NOTE: SEPERATE THE COMANDS WITH 1 TAB NOT SPACES
+```
+# Share Disk mount
+UUID=161A21531A213163 /media/Share	ntfs	defaults	0	0
+```
