@@ -114,5 +114,18 @@ _enable and change line (line should look like this)_
 greeter-hide-users=true
 ``
 
+#### Blackground slick greeter
+_Run as root_
 
+``
+./lightdm-script.sh
+``
+
+##### Edit _/etc/lightdm/lightdm.conf as root_
+
+_enable and change line (line should look like this)_
+
+``
+greeter-session=lightdm-slick-greeter
+``
 
