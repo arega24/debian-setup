@@ -1,6 +1,6 @@
 # debian-setup
 My Debian 11 setup files
-#### Note that these files are made for me so some files are in my user name directory
+#### Note that these files are made for me so some files/scripts are assigned to my user name
 
 ## ISO download
 https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/
