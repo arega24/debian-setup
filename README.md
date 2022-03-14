@@ -28,6 +28,7 @@ _Exit root_
 ``
 exit
 ``
+
 _Run_
 ``
 ./copy-folders-script.sh
@@ -38,6 +39,7 @@ _Run as root_
 ``
 su -
 ``
+
 And execute the chosen file
 ``
 ./<file-name>.sh
@@ -61,14 +63,17 @@ kernel headers
 ``
 apt install linux-headers-amd64
 ``
+
 Descktop drivers v470.103.01
 ``
 apt install nvidia-driver
 ``
+
 Nvidia Tesla drivers
 ``
 apt install nvidia-tesla-450-driver
 ``
+
 Cuda
 ``
 apt install nvidia-cuda-dev nvidia-cuda-toolkit
@@ -84,6 +89,7 @@ chmod 0440 /etc/sudoers
 exit
 reboot
 ```
+
 _After reboot run this test to see if it works_
 ``
 sudo echo "Hello World"
@@ -102,7 +108,8 @@ _enter file:_
 ``
 sudo vim /etc/lightdm/lightdm.conf
 ``
-_modification (it should apear as)_
+
+_enable and change line (line should look like this)_
 ``
 greeter-hide-users=true
 ``
