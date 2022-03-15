@@ -24,7 +24,7 @@
     # The geometry of the window:
        #   dimentions         offset
        #   [{width}]x{height}[+/-{x}+/-{y}]
-       geometry = "500x15-20+53"
+       geometry = "200x15-20+53"
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
