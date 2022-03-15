@@ -13,13 +13,14 @@ apt update
 apt upgrade
 
 # R
-apt-get install r-base gdebi-core
+apt-get install r-base r-base-core
 
-mkdir /home/$username/.programing-lenguages/R
-cd /home/$username/.programing-lenguages/R
+mkdir /home/arega/.programing-lenguages
+mkdir /home/arega/.programing-lenguages/R
+cd /home/arega/.programing-lenguages/R
 
 wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-2022.02.0-443-amd64.deb
-gdebi rstudio-server-2022.02.0-443-amd64.deb
+apt install ./rstudio-2022.02.0-443-amd64.deb
 
 # R Commander
 # inside RStudio run commands:
