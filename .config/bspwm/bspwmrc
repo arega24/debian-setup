@@ -37,7 +37,6 @@ compton --config ~/.config/picom-or-compton/picom-or-compton.conf
 
 # Dunst
 dunst
-notify-send "Hy!"
 
 redshift -l 47.304727:-6.980062
 
