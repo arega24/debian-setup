@@ -10,6 +10,8 @@ apt update
 apt upgrade
 flatpak update
 
+mkdir ~/.programing-lenguages
+cd ~/.programing-lenguages
 # Phyton install:
 mkdir /home/arega/.programing-lenguages/Python
 cd /home/arega/.programing-lenguages/Python
