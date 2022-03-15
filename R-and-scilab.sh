@@ -28,4 +28,4 @@ apt install ./rstudio-2022.02.0-443-amd64.deb
 # require(Rcmdr)
 cd
 # scilab
-apt install scilab
+# apt install scilab
