@@ -12,10 +12,10 @@
 apt update
 apt upgrade
 
+mkdir /home/arega/.programing-lenguages
+
 # R
 apt-get install r-base r-base-core
-
-mkdir /home/arega/.programing-lenguages
 mkdir /home/arega/.programing-lenguages/R
 cd /home/arega/.programing-lenguages/R
 
