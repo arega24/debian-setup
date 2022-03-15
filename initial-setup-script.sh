@@ -6,9 +6,8 @@ apt upgrade -y
 
 
 # Add base packages
-apt install unzip tar rar picom dunst bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo -y
-apt install papirus-icon-theme numix-icon-theme paper-icon-theme deepin-icon-theme sugar-icon-theme -y
-apt install xcursor-themes breeze-cursor-theme -y
+apt install unzip tar rar picom dunst libnotify-bin bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo redshift -y
+apt install papirus-icon-theme numix-icon-theme paper-icon-theme deepin-icon-theme sugar-icon-theme adwaita-icon-theme -y
 apt install fonts-font-awesome -y
 apt install lightdm slick-greeter lightdm-settings xorg -y
 apt install snapd vim -y
@@ -29,4 +28,3 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 # lightdm
 systemctl enable lightdm
-

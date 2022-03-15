@@ -103,7 +103,7 @@ sudo echo "Hello World"
 ## Snaps dont show up
 ### Run
 ```
-sudo ln -s /var/lib/snapd/desktop/applications 
+sudo ln -s /var/lib/snapd/desktop/applications
 /usr/share/applications/snapd
 ```
 
@@ -136,7 +136,7 @@ greeter-session=slick-greeter
 ``
 
 ## Folders missing
-Just run 
+Just run
 ``
 xdg-user-dirs-update
 ``
@@ -161,7 +161,7 @@ Run to list all your partitions
 sudo fdisk -l
 ``
 
-Run 
+Run
 ``
 sudo blkid
 ``
@@ -170,7 +170,7 @@ and copy the UUID from the selected disk
 open fstab file
 
 ``
-sudo vim /etc/fstab 
+sudo vim /etc/fstab
 ``
 
 Add the disk info (should something like this)

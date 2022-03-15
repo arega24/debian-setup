@@ -8,6 +8,7 @@
 # update and upgrade
 apt update
 apt upgrade
+flatpak update
 
 # Phyton install:
 mkdir /home/arega/.programing-lenguages/Python

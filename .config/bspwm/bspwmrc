@@ -22,25 +22,27 @@ bspc config active_border_color         "#363636"
 
 
 # screen config
-xrandr --output HDMI-0 --primary --mode 1920x1080 --rotate normal --output DP-3 --mode 1920x1080 --rotate normal --left-of HDMI-0 
+xrandr --output HDMI-0 --primary --mode 1920x1080 --rotate normal --output DP-3 --mode 1920x1080 --rotate normal --left-of HDMI-0
 
 # Wallpaper
 ${HOME}/.fehbg
 
 # Bar
-sh ~/.config/polybar_costom/launch.sh 
+sh ~/.config/polybar_costom/launch.sh
 
 # Trasnperacy
-compton --config ~/.config/picom-or-compton/picom-or-compton.conf 
+compton --config ~/.config/picom-or-compton/picom-or-compton.conf
 # picom only suports transperacy above v9
-# picom --config ~/.config/picom-or-compton/picom-or-compton.conf 
+# picom --config ~/.config/picom-or-compton/picom-or-compton.conf
 
+# Dunst
+dunst
+notify-send "Hy!"
+
+redshift -l 47.304727:-6.980062
 
 # Notifications
 #/usr/bin/dunst &
 
 # Picom
 # picom -CGb &
-
-
-
