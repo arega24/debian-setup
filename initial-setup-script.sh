@@ -11,7 +11,7 @@ apt install papirus-icon-theme numix-icon-theme paper-icon-theme deepin-icon-the
 apt install fonts-font-awesome -y
 apt install lightdm slick-greeter lightdm-settings xorg -y
 apt install snapd vim -y
-apt install pulseaudio alsa-utils pavucontrol playerctl -y
+apt install pulseaudio alsa-utils pavucontrol lollypop playerctl -y
 apt install wget -y
 apt install htop speedtest-cli neofetch vifm nvtop gdu -y
 # apt install zsh -y
