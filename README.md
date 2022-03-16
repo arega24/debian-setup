@@ -246,3 +246,8 @@ Next mount the downloaded virtio iso into the virtual machine
 #### Add pci devices for the GPU
 add Hardware -> Pci devices -> and select your gpu connections (can be more than 1)
 
+#### PCI passtrough
+BIOS SETINGS:
+intel_iommu=on
+
+_or any other pci passtrough conection like "vt-d" or "amd-vi"_
