@@ -8,11 +8,6 @@ apt-get update
 apt-get upgrade 
 apt-get install atom 
 
-# Install Atom
-sudo dpkg -i atom-amd64.deb
-
-cd
-
 apm install file-icons
 apm install todo
 apm install minimap
