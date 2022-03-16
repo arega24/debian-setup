@@ -34,6 +34,7 @@ _Exit root_
 exit
 ``
 
+
 _Run_
 ``
 ./copy-folders-script.sh
@@ -226,4 +227,22 @@ Add user to kvm groups
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 ```
+
+### VirtIO instalation
+Video tutorial: https://www.youtube.com/watch?v=1Gwra5mABSQ
+#### Download: 
+https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers
+
+
+#### Installation
+##### every thing is done with de vm OFF
+
+To manage the VM hardware, select the vm and press the light bulb
+
+After windows installation mount new disk  in the vm and set bus tipe = VirtIO
+
+Next mount the downloaded virtio iso into the virtual machine
+
+#### Add pci devices for the GPU
+add Hardware -> Pci devices -> and select your gpu connections (can be more than 1)
 
