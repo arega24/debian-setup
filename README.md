@@ -179,3 +179,17 @@ IMPORTANT NOTE: SEPERATE THE COMANDS WITH 1 TAB NOT SPACES
 # Share Disk mount
 UUID=161A21531A213163 /media/Share	ntfs	defaults	0	0
 ```
+
+
+## Bottles
+An app that emulates 
+
+### Install 
+```
+flatpak install flathub com.usebottles.bottles
+```
+
+### Add my files to the emulator folders
+1-select the app 
+2-select wine configurations
+3-on Units tab search for the drive_c folder on our main system and add your files directly to that folder (you can create a folder like /drive_c/my-files)
