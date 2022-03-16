@@ -195,3 +195,15 @@ flatpak install flathub com.usebottles.bottles
 2-select wine configurations
 
 3-on Units tab search for the drive_c folder on our main system and add your files directly to that folder (you can create a folder like /drive_c/my-files)
+
+
+## Gamemode
+### Steam
+Go to game preferences -> General -> launch options 
+and copy 
+``
+gamemoderun %command%
+``
+
+### Lutris
+right click the game -> configure -> System Options -> Enable Gamemode
