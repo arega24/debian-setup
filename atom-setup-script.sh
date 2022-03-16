@@ -1,6 +1,6 @@
 #!/bin/bash
 
-flatpak install flathub io.atom.Atom
+sudo snap install snappyatom --beta
 
 apm install file-icons
 apm install todo
