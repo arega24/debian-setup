@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo snap install snappyatom --beta
+snap install snappyatom --beta
 
 apm install file-icons
 apm install todo
