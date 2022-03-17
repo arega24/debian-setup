@@ -211,19 +211,3 @@ gamemoderun %command%
 ### Lutris
 right click the game -> configure -> System Options -> Enable Gamemode
 
-
-## Virtual machine comands (QEMU)
-Be aware of BIOS setings
-### Installation 
-
-```
-sudo apt install virt-manager 
-sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils libguestfs-tools genisoimage virtinst libosinfo-bin virt-manager
-```
-
-Add user to kvm groups
-
-```
-sudo adduser $USER libvirt
-sudo adduser $USER libvirt-qemu
-```
