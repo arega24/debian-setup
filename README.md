@@ -227,31 +227,3 @@ Add user to kvm groups
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 ```
-
-### VirtIO instalation
-Video tutorial: https://www.youtube.com/watch?v=1Gwra5mABSQ
-#### Download: 
-https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers
-
-
-#### Installation
-##### every thing is done with de vm OFF
-
-To manage the VM hardware, select the vm and press the light bulb
-
-After windows installation mount new disk  in the vm and set bus tipe = VirtIO
-
-Next mount the downloaded virtio iso into the virtual machine
-
-#### Add pci devices for the GPU
-add Hardware -> Pci devices -> and select your gpu connections (can be more than 1)
-
-#### PCI passtrough
-You use a VM to boot into anothe disk thath has a windows install in it.
-To do it you need to edit some setings in the bios and add the hardware needed (pci conections of the disk) to the VM (in the ligh bulb explained before).
-
-https://gist.github.com/davealvarado/4fe748ecd1e6eb16d095b0ebc6abcc7c
-BIOS SETINGS:
-intel_iommu=on
-
-_or any other pci passtrough conection like "vt-d" or "amd-vi"_
