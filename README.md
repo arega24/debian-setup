@@ -250,6 +250,7 @@ add Hardware -> Pci devices -> and select your gpu connections (can be more than
 You use a VM to boot into anothe disk thath has a windows install in it.
 To do it you need to edit some setings in the bios and add the hardware needed (pci conections of the disk) to the VM (in the ligh bulb explained before).
 
+https://gist.github.com/davealvarado/4fe748ecd1e6eb16d095b0ebc6abcc7c
 BIOS SETINGS:
 intel_iommu=on
 
