@@ -247,6 +247,9 @@ Next mount the downloaded virtio iso into the virtual machine
 add Hardware -> Pci devices -> and select your gpu connections (can be more than 1)
 
 #### PCI passtrough
+You use a VM to boot into anothe disk thath has a windows install in it.
+To do it you need to edit some setings in the bios and add the hardware needed (pci conections of the disk) to the VM (in the ligh bulb explained before).
+
 BIOS SETINGS:
 intel_iommu=on
 
