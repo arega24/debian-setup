@@ -31,16 +31,13 @@ ${HOME}/.fehbg
 sh ~/.config/polybar_costom/launch.sh
 
 # Trasnperacy
-compton --config ~/.config/picom-or-compton/picom-or-compton.conf
+compton --config ~/.config/picom-or-compton/picom-or-compton.conf &
 # picom only suports transperacy above v9
 # picom --config ~/.config/picom-or-compton/picom-or-compton.conf
 
-# Dunst
-notify-send "Welcome!"
-
 # redshift
+# this comand has to be the last one
 redshift -l 47.304727:-6.980062
-
 # Notifications
 #/usr/bin/dunst &
 
