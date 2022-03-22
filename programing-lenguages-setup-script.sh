@@ -23,6 +23,8 @@ cd Python-3.10.2
 make altinstall
 cd
 
+apt-get install python-pip
+
 # C# install:
 mkdir /home/arega/.programing-lenguages/C#
 cd /home/arega/.programing-lenguages/C#
