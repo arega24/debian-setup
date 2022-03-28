@@ -1,7 +1,7 @@
 #!/bin/bash
 
 snap install core
-snap install brave tradingview
+snap install tradingview
 snap install code --classic
 
 flatpak install flathub org.standardnotes.standardnotes
