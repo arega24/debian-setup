@@ -155,7 +155,7 @@ super + Print
 
 # Shortcuts
 super + b
-  snap run brave
+  brave-browser
 
 super + n
   nemo
