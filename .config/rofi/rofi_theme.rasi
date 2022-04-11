@@ -33,7 +33,7 @@ entry {
 
 inputbar {
     children:         [ prompt, entry ];
-    padding:          8;
+    padding:          6;
     border:           0 0 0;
     text-color:       @foreground;
     background-color: @inptut-color;
