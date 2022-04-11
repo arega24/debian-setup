@@ -1,8 +1,6 @@
 #!/bin/bash
 
-snap install core
 snap install tradingview
-snap install code --classic
 
 flatpak install flathub org.standardnotes.standardnotes
 flatpak install flathub com.todoist.Todoist
@@ -14,6 +12,7 @@ flatpak install flathub org.kde.krita
 flatpak install flathub io.github.Qalculate
 flatpak install flathub org.videolan.VLC
 flatpak install flathub com.wps.Office
+flatpak install flathub com.visualstudio.code
 
 apt install lutris
 
