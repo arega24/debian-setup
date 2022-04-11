@@ -59,10 +59,12 @@ chmod u+x <file>
 
 ## Install packages from source
 1- Download the .deb file
+
 2- run in terminal:
 ```
 sudo apt install [Package Name]
 ```
+
 
 ## Brave Browser
 Srource: https://brave.com/linux/
