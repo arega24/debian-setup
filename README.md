@@ -51,6 +51,10 @@ And execute the chosen file
 ./<file-name>.sh
 ``
 
+### How to make a file executable
+``
+chmod u+x <file>
+``
 
 ## Brave Browser
 Srource: https://brave.com/linux/
