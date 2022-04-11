@@ -18,7 +18,7 @@
     yellow:                      rgba ( 225, 196, 125, 100 % );
 
     border-color:                rgba ( 124, 131, 137, 100 % );
-    padding:                     4;
+    padding:                     7;
     separatorcolor:              rgba ( 29, 31, 33, 100 % );
 }
 
