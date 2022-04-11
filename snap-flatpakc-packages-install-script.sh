@@ -13,8 +13,6 @@ flatpak install flathub io.github.Qalculate
 flatpak install flathub org.videolan.VLC
 flatpak install flathub com.wps.Office
 
-apt install lutris
-
 apt update
 apt upgrade
 snap refresh
