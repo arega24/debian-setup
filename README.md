@@ -69,6 +69,7 @@ sudo apt install -f [Package Name]
 ``
 
 ### Atom and Vscode
+These  apps need to be installed with this method to work properly
 
 #### Download
 https://atom.io/
@@ -84,6 +85,10 @@ sudo apt install -f ~/Transferências/<file>
 ``
 apm install file-icons todo minimap pigments atom-beautify ask-stack highlight-selected
 ``
+
+#### VSCode Packages
+
+python ; c# ; c# extensions ; code runner ; nuget package manager ; base 16 theme default
 
 
 
