@@ -34,7 +34,6 @@ _Exit root_
 exit
 ``
 
-
 _Run_
 ``
 ./copy-folders-script.sh
@@ -42,28 +41,50 @@ _Run_
 
 ### The rest of .sh files
 _Run as root_
+
 ``
 su -
 ``
 
 And execute the chosen file
+
 ``
 ./<file-name>.sh
 ``
 
 ### How to make a file executable
+
 ``
 chmod u+x <file>
 ``
 
 
 ## Install packages from source
-1- Download the .deb file
 
-2- run in terminal:
-```
+#### Download the .deb file
+
+#### Run in terminal:
+``
 sudo apt install -f [Package Name]
-```
+``
+
+### Atom and Vscode
+
+#### Download
+https://atom.io/
+
+https://code.visualstudio.com/
+
+#### Run
+``
+sudo apt install -f ~/Transferências/<file>
+``
+
+#### Atom Packages
+``
+apm install file-icons todo minimap pigments atom-beautify ask-stack highlight-selected
+``
+
 
 
 ## Brave Browser
@@ -81,6 +102,8 @@ sudo apt update
 sudo apt install brave-browser
 
 ```
+
+
 
 ## NVIDIA
 _source:_ https://wiki.debian.org/NvidiaGraphicsDrivers#nvidia-detect
