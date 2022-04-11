@@ -62,7 +62,7 @@ chmod u+x <file>
 
 2- run in terminal:
 ```
-sudo apt install [Package Name]
+sudo apt install -f [Package Name]
 ```
 
 
