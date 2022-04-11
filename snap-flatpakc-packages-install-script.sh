@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt update && apt upgrade
+
 snap install tradingview
 
 flatpak install flathub org.standardnotes.standardnotes
@@ -13,7 +15,6 @@ flatpak install flathub io.github.Qalculate
 flatpak install flathub org.videolan.VLC
 flatpak install flathub com.wps.Office
 
-apt update
-apt upgrade
+
 snap refresh
 flatpak update
