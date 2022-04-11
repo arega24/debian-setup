@@ -140,6 +140,7 @@ sudo vim /etc/lightdm/lightdm.conf
 
 _enable and change line (line should look like this)_
 ``
+[Seat:*]
 greeter-hide-users=false
 ``
 
