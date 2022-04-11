@@ -4,9 +4,8 @@
 apt update
 apt upgrade -y
 
-
 # Add base packages
-apt install unzip tar rar picom dunst libnotify-bin bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo redshift -y
+apt install unzip tar rar picom dunst libnotify-bin bspwm polybar rofi kitty sxhkd git piper lxappearance gnome-screenshot feh sxiv nemo redshift lutris -y
 apt install papirus-icon-theme numix-icon-theme paper-icon-theme deepin-icon-theme sugar-icon-theme adwaita-icon-theme -y
 apt install fonts-font-awesome fonts-roboto -y
 apt install lightdm slick-greeter lightdm-settings xorg -y
