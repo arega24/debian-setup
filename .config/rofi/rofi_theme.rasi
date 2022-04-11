@@ -3,7 +3,7 @@
 
 configuration{
     display-drun:           "Aplication:";
-    font:                   "Nunito 14";
+    font:                   "Roboto 14";
     drun-display-format:    "{icon}{name}";
     show-icons:             false;
     //icon-theme:           ;
