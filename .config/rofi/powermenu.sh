@@ -16,7 +16,7 @@ $sleep" | rofi -dmenu -i -theme-str '@import "menu_power.rasi"')
 
 if [ "$selected_option" == "$logout" ]
 then
-    pkill -KILL -u arega
+    kitty pkill -KILL -u arega
 elif [ "$selected_option" == "$shutdown" ]
 then
     systemctl poweroff
